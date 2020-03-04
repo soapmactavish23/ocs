@@ -1,0 +1,23 @@
+{ 
+	"title": "ARGOS",
+	"items": [ 
+		{ "label": "Operação",
+		  "subitems": [
+			{ "id": "cadastrar-operacao", "label": "Cadastrar Operação" },
+			{ "id": "cadastrar-acoes", "label": "Cadastrar Ação" },
+			{ "id": "cadastrar-produtividade", "label": "Cadastrar Produtividade da Ação" }
+			]
+		},
+		{"label": "Administração",
+			"subitems": [
+				{ "id": "cadastrar-instituicao", "label": "Cadastrar Instituição"},
+				{ "id": "cadastrar-recurso", "label": "Cadastrar Recursos" },
+				{ "id": "cadastrar-grupo-indicador", "label": "Cadastrar Grupo de Indicador" },
+				{ "id": "cadastrar-indicador", "label": "Cadastrar Indicador" },
+				{ "id": "tipo-ocorrencia", "label": "Cadastrar Tipo de Ocorrência" },
+				{ "id": "usuario", "label": "Cadastrar usuários" },
+				{ "id": "mudasenha", "label": "Mudar senha" }
+			]
+		}
+	]
+}
