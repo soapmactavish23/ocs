@@ -9,7 +9,7 @@
 		<title>OCS - Oficina Comércio e Serviços</title>
 
 		<!-- Load Icon -->
-		<link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+		<link rel="shortcut icon" type="image/x-icon" href="img/logo-card.png">
 
 		<!-- Load Leaflet from CDN -->
 		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css">
@@ -71,12 +71,139 @@
 	</head>
 	<body>
 		<!-- Header -->
-		<header></header>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar navbar-dark navs">
+				<a class="navbar-brand" href="index.html">
+					<img width="80px" height="32" src="img/logo-card.png" class="hvr-bounce-in">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+						<li class="nav-item">
+							<a class="nav-link hvr-float-shadow" href="#" id="estrutura">Estrutura</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link hvr-float-shadow" href="#" id="atuacao">Atuação</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link hvr-float-shadow" href="#" id="corpo_tecnico">Corpo Técnico</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link hvr-float-shadow" href="#" id="servicos">Serviços</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link hvr-float-shadow" href="#" id="clientes">Clientes</a>
+						</li>
+					</ul>
+					<div class="form-inline my-2 my-lg-0">
+						<!-- Whatsapp -->
+						<a href="https://api.whatsapp.com/send?phone=5521971703956&amp;text=Ol%C3%A1%20LTR%2C%20visitei%20o%20seu%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es!" class="mr-sm-4 hvr-grow-shadow" onclick="true" data-id="link-externo" target="_blank">
+							<img src="https://emprezaz.com/galerias/d282ef263719ab842e05382dc235f69e/1291/1a9930cb307e7370d8e419563c2278c5.png" style="">
+						</a>
+						<!-- Instagram -->
+						<a href="https://www.instagram.com/ltrengenhariaeservicos/?hl=pt-br" onclick="true" class="mr-sm-4 hvr-grow-shadow" data-id="link-externo" target="_blank">
+							<img src="https://emprezaz.com/galerias/d282ef263719ab842e05382dc235f69e/1291/73d9cd398553c05a9a74d6a0f783e973.png" style="">
+						</a>
+						<a href="https://www.facebook.com/litter.litter.56" onclick="true" data-id="link-externo" class="mr-sm-4 hvr-grow-shadow" target="_blank">
+							<img src="https://emprezaz.com/galerias/d282ef263719ab842e05382dc235f69e/1291/d71ca94289919b5fde2dc27e4c2611e2.png" style="">
+						</a>
+					</div>
+				</div>
+			</nav>
+
+			<script type="text/javascript" src="js/navbar.js"></script>
+		</header>
 		<!-- Main -->
-		<main role="main" class="container"></main>
+		<main role="main" class="container">
+			<div class="card text-light starter" id="card">
+				<div class="card-header text-center container">
+					<div class="hvr-bounce-in">
+						<img class="img-fluid" src="img/logo-card.png">
+						<h1>Oficina Comércio e Serviços</h1>
+					</div>
+				</div>
+				<div class="card-body text-center">
+					<p>A OFICINA COMÉRCIO E SERVIÇOS é uma empresa genuína da região Norte, sediada na cidade de Belém, capital do Estado do Pará,fundada no ano de 2008.</p>
+					<p>Atualmente atuando em quase todo o território Nacional.</p>
+					<p>Com foco inicial no segmento de climatização, ampliou sua abrangência, atendendo os segmentos de Telecomunicação, Climatização, Energia/Elétrica, Hiráulica, Construção Civil e Manutenções.</p>
+					<p>Tendo como foco a satisfação, qualidade e agilidade nos serviços prestados aos seus clientes.</p>
+					<p>Possui experiência em obras de pequeno, médio e grande porte. Atuando simultaneamente em várias regiões em todo o Brasil.</p>
+				</div>
+				<div class="card-footer">
+					<p class="footer-p">
+						&copy 2020 - OCS Oficina Comércio e Serviços
+					</p>
+				</div>	
+			</div>
+		</main>
 
 		<!-- Footer -->
-		<footer class="bg-dark text-light"></footer>
+		<footer class="bg-dark text-light">
+			<div class="text-center text-md-left">
+				<div class="row">
+					<div class="col-sm-3 border-footer">
+						<h4>Navegação</h4>
+						<ul class="list-unstyled">
+							<!-- <li>
+								<a href="#" class="hvr-float-shadow" id="sobre">Sobre</a>
+							</li> -->
+							<li>
+								<a href="#" class="hvr-float-shadow" id="estrutura">Estrutura</a>
+							</li>
+							<li>
+								<a href="#" class="hvr-float-shadow" id="atuacao">Atuação</a>
+							</li>
+							<li>
+								<a href="#" class="hvr-float-shadow" id="corpo_tecnico">Corpo Técnico</a>
+							</li>
+							<li>
+								<a href="#" class="hvr-float-shadow" id="servico">Serviços</a>
+							</li>
+							<li>
+								<a href="#" class="hvr-float-shadow" id="cliente">Clientes</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 border-footer">
+						<h4>Contatos</h4>
+						<ul class="list-unstyled">
+							<li>(91) 3349-8358</li>
+							<li>(91) 4141-0486</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 border-footer">
+						<h4>Endereço</h4>
+						<ul class="list-unstyled">
+							<li>
+								<a href="#" data-toggle="modal" id="end" data-target="#modal" class="hvr-wobble-to-top-right">
+									RUA DOUTOR MALCHER, 210, CIDADE VELHA, BELÉM/PA, CEP: 66.020-250.
+								</a>
+							</li>				
+						</ul>
+					</div>
+					<div class="col-sm-3 border-footer">
+						<h4>Redes Sociais</h4>
+						<a href="https://www.facebook.com/henrick.nogueira" class="btn btn-block btn-social btn-facebook">
+				    		<span class="fa fa-facebook"></span>Curta no Facebook
+				       	</a>
+				       	<a href="https://www.instagram.com/nogueira_henrick" class="btn btn-block btn-social btn-instagram">
+					    	<span class="fa fa-instagram"></span>Siga no Instagram
+					   	</a>
+					   	<a href="https://www.instagram.com/nogueira_henrick" class="btn btn-block btn-social btn-success">
+					    	<span class="fa fa-whatsapp"></span>Chame no Whatsapp
+					   	</a>
+					</div>
+				</div>	
+			</div>
+			<!-- Copyright -->
+			<div class="text-center footer-bottom">
+				© 2020 Copyright: OCS Oficina Comércio e Serviços
+			</div>
+			<!-- Copyright -->
+			<script type="text/javascript" src="js/navbar.js"></script>
+		</footer>
 
 		<!-- Modal -->
 		<div class="modal fade" id="modal" tabindex="-1" role="dialog">

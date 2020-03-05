@@ -1,19 +1,4 @@
-var url = window.location.origin + '/ocs';
-//Carregar a Navbar
-$.ajax({
-	url: url + '/partial/navbar.html',
-	success: function(data){
-		$('header').html(data);
-	}
-});
-
-//Carregar o Footer
-$.ajax({
-	url: url + '/partial/footer.html',
-	success: function(data){
-		$('footer').html(data);
-	}
-});
+var url = window.location.origin;
 
 carregaMain('home');
 
