@@ -27,7 +27,7 @@
 		<script>window.jQuery || document.write('<script src="lib/jquery/jquery-3.3.1.slim.min.js"><\/script>')</script>
 
 		<!-- Load Popper Lib -->
-		<script src="lib/popper/popper.min.js"></script>		
+		<script src="lib/popper/popper.min.js"></script>	
 		
 		<!-- Load Bootstrap Lib -->
 		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
@@ -55,9 +55,6 @@
 		<!-- Load styles for this template -->
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 
-		<!-- Motion JS -->
-		<script type="text/javascript" src="lib/motionjs/motion.js"></script>
-
 		<!-- Hover -->
 		<link rel="stylesheet" type="text/css" href="lib/Hover-master/css/hover.css">
 
@@ -66,17 +63,17 @@
 		<script src="https://balkangraph.com/js/latest/OrgChart.js"></script>
 
 		<!-- Aos Animation -->
-		<!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
-
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		
 	</head>
 	<body>
 		<!-- Header -->
-		<header></header>
+		<header data-aos="fade-down"></header>
 		<!-- Main -->
-		<main role="main" class="container"></main>
+		<main role="main" class="container" data-aos="zoom-in"></main>
 
 		<!-- Footer -->
-		<footer class="bg-dark text-light"></footer>
+		<footer class="bg-dark text-light" data-aos="fade-up"></footer>
 
 		<!-- Modal -->
 		<div class="modal fade" id="modal" tabindex="-1" role="dialog">
@@ -87,5 +84,9 @@
 			</div>
 		</div>
 		<script type="text/javascript" src="js/index.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script type="text/javascript">
+			AOS.init();
+		</script>
 	</body>
 </html>
