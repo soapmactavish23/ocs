@@ -45,6 +45,19 @@ a:active{
 .navs{
 	background: #12172A
 }
-.footer-p{
+/*.footer-p{
 	margin: 0 auto;
+}*/
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
