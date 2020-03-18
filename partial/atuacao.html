@@ -11,14 +11,8 @@
 				<div class="text-center text-light" style="background: #02519F">
 					<h1>Onde Estamos</h1>
 				</div>
-				<div class="row">
-					<div class="col-sm-3 text-center">
-						<p class="">Acre</p>
-					</div>
-					
-				</div>
+				<div id="estados" class="row"></div>
 			</div>
-			
 		</div>
 	</div>
 	<div class="card-footer">
@@ -29,3 +23,17 @@
 		</span>
 	</div>	
 </div>
+<script>
+	$.ajax({
+		url: url + '/api/api.php',
+		type: 'POST',
+		data: {classe: 'atuacao', metodo: 'obterTodos'},
+		success: function(result){
+			for(i = 0; i < result.data.length; i++){
+				var nome = result.data[i].estado;
+				var img = result.data[i].bandeira;
+				$('#estados').append('<div class="col-sm-4 text-center hvr-pop"><p><img src="'+img+'" class="img-fluid">'+nome+'</p></div>');
+			}
+		}
+	});
+</script>
