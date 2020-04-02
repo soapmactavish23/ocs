@@ -1,4 +1,4 @@
-var url = window.location.origin + '/ocs';
+var url = window.location.origin;
 
 carregaMain('home');
 
