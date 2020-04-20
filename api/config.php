@@ -8,7 +8,7 @@ ini_set("display_errors", true);
 define("DB_HOST", "localhost");
 define("DB_USER", "root");
 define("DB_PASSWORD", "p@\$\$w0rd");
-define("DB_DB", "ocs");
+define("DB_DB", "id12813176_ocs");
 
 # define a chave privada para Json Web Token - JWT
 define("PRIVATE_KEY", "chavePrivadaParaJsonWebTokenDisqueDenuncia");
