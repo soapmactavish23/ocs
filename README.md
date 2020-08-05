@@ -7,3 +7,23 @@ Oficina Comércio e Serviços foi um site destinado para a empresa com o mesmo n
 [OCS](http://www.ocsbreng.com/)
 
 ### Prints
+##### Home
+![](prints/home.png)
+
+##### Atuação
+![](prints/atuacao.png)
+
+##### Nosso Time
+![](prints/nosso_time.png)
+
+##### Serviços
+![](prints/servicos.png)
+
+##### Clientes
+![](prints/clintes.png)
+
+##### Endereço
+![](prints/endereco.png)
+
+##### Footer
+![](prints/footer.png)
