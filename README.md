@@ -8,22 +8,22 @@ Oficina Comércio e Serviços foi um site destinado para a empresa com o mesmo n
 
 ### Prints
 ##### Home
-![](/prints/home.PNG)
+![](prints/home.PNG)
 
 ##### Atuação
 ![](prints/atuacao.PNG)
 
 ##### Nosso Time
-![](prints/nosso_time.png)
+![](prints/nosso_time.PNG)
 
 ##### Serviços
-![](prints/servicos.png)
+![](prints/servicos.PNG)
 
 ##### Clientes
-![](prints/clintes.png)
+![](prints/clintes.PNG)
 
 ##### Endereço
-![](prints/endereco.png)
+![](prints/endereco.PNG)
 
 ##### Footer
-![](prints/footer.png)
+![](prints/footer.PNG)
