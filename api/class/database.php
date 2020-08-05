@@ -5,6 +5,7 @@ class database extends mysqli {
 	# overwrite parent __construct
 	public function __construct() {
 		parent::__construct(DB_HOST, DB_USER, DB_PASSWORD, DB_DB);
+		parent::set_charset(CHARSET);
 
 		# check if connect errno is set
 		if (mysqli_connect_errno()) {

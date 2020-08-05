@@ -1,8 +1,11 @@
 <?php
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: POST');
+
 # carrega as configuraçoes iniciais
 require_once "config.php";
 
-$_REQUEST = array_utf8_decode( $_REQUEST );
+//$_REQUEST = array_utf8_decode( $_REQUEST );
 
 if ( $classe = @ $_REQUEST['classe'] ) {
 	# carrega classe
@@ -24,10 +27,9 @@ if ( $classe = @ $_REQUEST['classe'] ) {
 	$_RESPONSE['error'] = 'Nenhuma CLASSE requerida';
 }
 
-$_RESPONSE = array_utf8_encode( $_RESPONSE );
+//$_RESPONSE = array_utf8_encode( $_RESPONSE );
 
 # retorno no formato json
-header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=utf-8", true);
 print json_encode( @ $_RESPONSE );
 ?>
